@@ -9,7 +9,7 @@ public class TrelloTest extends BasePage {
     @Test
     public void createBoard()
     {
-        pageCreateBoard("Baslik2", key, token);
+        pageCreateBoard("TestCard", key, token);
     }
 
 
@@ -35,7 +35,7 @@ public class TrelloTest extends BasePage {
         @Test
     public void cardUpdate(){
 
-      pageCardUpdate(key, token, "Yeni Kart İsmi 22222");
+      pageCardUpdate(key, token, "NewCardUpdate");
     }
 
     @Test
